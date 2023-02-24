@@ -14,12 +14,19 @@ import {
 
 
 const firebaseConfig = {
-    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-    appId: import.meta.env.VITE_FIREBASE_APP_ID,
+    // apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    // authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    // projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+    // storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+    // messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    // appId: import.meta.env.VITE_FIREBASE_APP_ID,
+
+    apiKey: "AIzaSyAvKsZ9T2Xgrhg9X9cp1eQOc8pyeOnYRjc",
+    authDomain: "spotframe-app.firebaseapp.com",
+    projectId: "spotframe-app",
+    storageBucket: "spotframe-app.appspot.com",
+    messagingSenderId: "640156845006",
+    appId: "1:640156845006:web:827b22ce9876278a93e19f"
 };
 
 const app = initializeApp(firebaseConfig);
